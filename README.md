@@ -30,6 +30,20 @@ It abuses improper flag propagation in `__pskb_copy_fclone()` when using the TEE
 
 ---
 
+Demo
+<img src="https://github.com/user-attachments/assets/7a8ec634-62fb-4c6b-bab7-52495eb70e96" alt="Proof of Concept">
+
+Disclaimer
+This tool is for educational and security research purposes only.
+Unauthorized use on systems you do not own is illegal.
+Use responsibly.
+
+References
+
+JFrog Security Research - DirtyClone Writeup (link when available)
+CVE-2026-43503
+Linux kernel fix: 48f6a5356a33
+
 ## Usage
 
 ```bash
@@ -39,3 +53,5 @@ cd DirtyClone
 
 # 2. Run the exploit
 python3 dirtyclone.py
+
+
